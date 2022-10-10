@@ -11,7 +11,11 @@ const Test = () => {
 
   console.log(watch('example')); // watch input value by passing the name of it
 
-  const handleSubmit1=(e)=>{
+  const handleSubmitTest=(e)=>{
+    buttonRef.current = e.target.name;
+    handleSubmit(onSubmit);
+  }
+  /*const handleSubmit1=(e)=>{
     console.log('data11', e.target.name);
     buttonRef.current = e.target.name;
     handleSubmit(onSubmit);
@@ -22,7 +26,7 @@ const Test = () => {
     buttonRef.current = e.target.name;
     handleSubmit(onSubmit);
     // handleSubmit(data => console.log('data2', data));
-  }
+  }*/
 
   return (
     <div>
@@ -44,13 +48,13 @@ const Test = () => {
         <input type="submit" name="button" />
 
         <button
-          onClick={handleSubmit1}
+          onClick={handleSubmitTest}
           name="button1"
         >
           testtest1
         </button>
         <button
-          onClick={handleSubmit2}
+          onClick={handleSubmitTest}
           name="button2"
         >
           testtest2
