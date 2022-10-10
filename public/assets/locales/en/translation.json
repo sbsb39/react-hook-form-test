@@ -1,0 +1,25 @@
+{
+  "components" : {
+
+  },
+  "validate.required": "Required!",
+
+  "pages" : {
+    "home" : {
+      "login" : "Login",
+      "loginByMobile" : "Login By Mobile"
+    },
+    "member" : {
+      "login" : {
+        "logoAlt": "Hwikgo",
+        "hwikgoLoginByMobile" : "Hwikgo Login By Mobile",
+        "simpleLogin" : "Simple Login",
+        "kakaoLogin" : "Kakao Login",
+        "naverLogin" : "Naver Login",
+        "appleLogin" : "Apple Login",
+        "alreadyMember" : "already member",
+        "signUpByMobile" : "Sign up by mobile"
+      }
+    }
+  }
+}

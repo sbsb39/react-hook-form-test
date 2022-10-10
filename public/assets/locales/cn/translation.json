@@ -1,0 +1,17 @@
+{
+  "components" : {
+
+  },
+
+  "pages" : {
+    "home" : {
+      "login" : "Login",
+      "loginByMobile" : "Login By Mobile"
+    },
+    "member" : {
+      "login" : {
+        "hwikgo": "Hwikgo"
+      }
+    }
+  }
+}
